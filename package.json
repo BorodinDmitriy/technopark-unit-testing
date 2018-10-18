@@ -1,0 +1,29 @@
+{
+  "name": "technopark-unit-testing",
+  "version": "1.0.0",
+  "description": "Unit testing with example calculator.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "nyc mocha ./test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puchninanastya/technopark-unit-testing.git"
+  },
+  "author": "Anastasia Puchnina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puchninanastya/technopark-unit-testing/issues"
+  },
+  "homepage": "https://github.com/puchninanastya/technopark-unit-testing#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "nyc": "^13.1.0"
+  }
+}
